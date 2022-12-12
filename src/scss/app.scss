@@ -33,13 +33,12 @@ position:fixed;
 top:0;
 }
 
-@media screen and (min-width: 600px) {
+.discounts{
+visibility:hidden;
+}
+
+@media screen and (max-width: 600px) {
   .discounts {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
+    visibility: visible;
   }
 }
