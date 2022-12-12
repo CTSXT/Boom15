@@ -33,18 +33,13 @@ position:fixed;
 top:0;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-
-}
-        
-.item {
-background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+@media screen and (min-width: 600px) {
+  .discounts {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
 }
